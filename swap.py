@@ -6,3 +6,10 @@ y= x - y
 x= x - y
 print(x,y)
 
+# This is the second method using the third variable
+a,b = 30,60
+temp = a
+a = b
+b = temp
+print(a,b)
+
